@@ -129,15 +129,14 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Downloads\point\Entity.cpp" />
     <ClCompile Include="..\..\..\..\Downloads\point\main.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\point\Player.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\point\Point.cpp" />
+    <ClCompile Include="AMovable.cpp" />
+    <ClCompile Include="Integer.cpp" />
     <ClCompile Include="Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Downloads\point\Entity.h" />
-    <ClInclude Include="..\..\..\..\Downloads\point\IAlive.h" />
-    <ClInclude Include="..\..\..\..\Downloads\point\Player.h" />
-    <ClInclude Include="..\..\..\..\Downloads\point\Point.h" />
+    <ClInclude Include="AMovable.h" />
+    <ClInclude Include="Integer.h" />
     <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

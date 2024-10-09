@@ -16,9 +16,10 @@ public:
     void SetX(float _x);
     void SetY(float _y);
     // Getters
-    float getX();
-    float getY();
+    float GetX() const;
+    float GetY() const;
 
+    Vector2 operator+(const Vector2& _rigth);
 };
 
 #endif

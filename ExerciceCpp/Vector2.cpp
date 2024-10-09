@@ -21,14 +21,20 @@ void Vector2::SetY(float _y)
 	y = _y;
 }
 
-float Vector2::getX()
+float Vector2::GetX() const
 {
 	return x;
 }
 
-float Vector2::getY()
+float Vector2::GetY() const
 {
 	return y;
+}
+
+Vector2 Vector2::operator+(const Vector2& _rigth)
+{
+	Vector2 tmp(this->x + _rigth.GetX(), this->y + _rigth.GetY());
+	return tmp;
 }
 
 
