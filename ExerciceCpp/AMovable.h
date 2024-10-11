@@ -12,9 +12,6 @@ public:
 	
 	virtual void setVector2(float _x, float _y);
 	virtual void SetSpeed(float _v);
-	virtual void Move();
-
-
-private:
+	virtual void Move() = 0;
 
 };

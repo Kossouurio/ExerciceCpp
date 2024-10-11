@@ -14,3 +14,4 @@ void AMovable::SetSpeed(float _v)
 {
 	v = _v;
 }
+
